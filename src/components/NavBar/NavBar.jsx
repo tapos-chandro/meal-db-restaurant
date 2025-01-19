@@ -3,7 +3,10 @@
 const NavBar = () => {
     return (
         <div>
-            <h1>This is Nav Bar</h1>
+            <div>
+            <img src="../../assets/logo-small.png" alt="" />
+            </div>
+            <button>Sign Up</button>
         </div>
     );
 };

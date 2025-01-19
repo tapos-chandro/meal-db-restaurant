@@ -1,12 +1,12 @@
 import './App.css'
+import Home from './components/Home/Home'
 
 function App() {
 
 
   return (
     <>
-      <p>This is a app pages</p>
-      <button className="btn btn-primary">One</button>
+      <Home/>
     </>
   )
 }
