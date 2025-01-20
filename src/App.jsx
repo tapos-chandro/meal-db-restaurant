@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      <Home/>
+      <Home fallbackElement={<div>Loading application...</div>} />
     </>
   )
 }

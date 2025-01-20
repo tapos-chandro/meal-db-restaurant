@@ -1,8 +1,8 @@
 const Banner = () => {
   return (
     <div className='bg-center bg-no-repeat bg-cover bg-banner-bg'>
-      <div className=' bg-[#00000091] py-52'>
-        <div className='container flex flex-col items-center justify-center gap-6 mx-auto text-center' >
+      <div className=' bg-[#00000091] lg:py-52 py-32'>
+        <div className='container flex flex-col items-center justify-center gap-6 px-5 mx-auto text-center' >
           <h1 className='text-4xl font-bold text-white lg:text-6xl'>
             Taste Our Delicious <br /> Best food
           </h1>
