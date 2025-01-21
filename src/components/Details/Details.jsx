@@ -21,7 +21,7 @@ const Details = () => {
   }, [])
 
   return (
-    <div className='p-10 mx-auto shadow-xl lg:w-2/3 card bg-base-100'>
+    <div className='p-5 mx-auto shadow-xl lg:p-10 lg:w-2/3 card bg-base-100'>
       <div className='pb-6'>
         <h2 className='pb-6 text-3xl font-bold border-b-2 card-title'>
           {mealDetail?.strMeal}
@@ -52,7 +52,7 @@ const Details = () => {
             {mealDetail?.strInstructions}
           </span>
         </p>
-        <p className='text-xl font-semibold text-neutral-700'>
+        <p className='font-semibold lg:text-xl text-neutral-700'>
           Youtube Url:{' '}
           <span className='font-normal text-neutral-500'>
             <a target='_blank' href={mealDetail?.strYoutube}>
